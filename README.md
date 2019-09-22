@@ -1,1 +1,1 @@
-ktane-garfieldKart
+#[ModKit Wiki](../../wiki)
