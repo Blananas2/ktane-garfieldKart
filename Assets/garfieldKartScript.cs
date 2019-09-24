@@ -217,7 +217,7 @@ public class garfieldKartScript : MonoBehaviour {
         } else
         {
             calc *= 7;
-            Debug.LogFormat("[Garfield Kart #{0}] {1} * 6 = {2} (Odd amount of letters in track name, multiply by 7)", moduleId, calc / 6, calc);
+            Debug.LogFormat("[Garfield Kart #{0}] {1} * 7 = {2} (Odd amount of letters in track name, multiply by 7)", moduleId, calc / 7, calc);
         }
 
         dig = calc;
