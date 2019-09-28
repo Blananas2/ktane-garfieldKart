@@ -1684,7 +1684,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 8ff00fadf768599418a1e8bdf348367f, type: 2}
+  - {fileID: 2100000, guid: cd6f97d91f648064ba36fb4c2ca7aa96, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2907,6 +2907,15 @@ MonoBehaviour:
   PuzzleMats:
   - {fileID: 2100000, guid: 644e037bd067dd74aa5b3d757046b236, type: 2}
   - {fileID: 2100000, guid: 8391282c18294c242832171def06c7f1, type: 2}
+  SolveImages:
+  - {fileID: 2100000, guid: 060d2119cc5099f45a1d7e2b77a38570, type: 2}
+  - {fileID: 2100000, guid: f367fba87f59f2d499037193edd1f63d, type: 2}
+  - {fileID: 2100000, guid: 10d7fc76c3d6f504c92c022a3192fdff, type: 2}
+  - {fileID: 2100000, guid: f59864d590e218042a2ccb4881e358e3, type: 2}
+  - {fileID: 2100000, guid: 3c54bb12badf93f40b651881983c8196, type: 2}
+  - {fileID: 2100000, guid: c02b6c2d525ddb7459f73e6eb0ebc2d9, type: 2}
+  - {fileID: 2100000, guid: e3ddc410dc69b2c41b59b4e740fc7ed5, type: 2}
+  - {fileID: 2100000, guid: 8d199438704cdfb4f83fa9365478f703, type: 2}
   characterNames:
   - Jon
   - Garfield

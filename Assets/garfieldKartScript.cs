@@ -15,6 +15,7 @@ public class garfieldKartScript : MonoBehaviour {
     public Material[] Mats;
     public GameObject[] PuzzlePieces; //Make 3 squares
     public Material[] PuzzleMats; //Make this just 1 blue (there) and 0 red (not there)
+    public Material[] SolveImages;
 
     //             01234567
     string Venn = "JGLOSNHA";
@@ -60,6 +61,7 @@ public class garfieldKartScript : MonoBehaviour {
     };
     public List<int> factNum = new List<int> { 1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800, 39916800, 479001600 };
     string logString = "";
+    int img = 0;
 
     //Logging
     static int moduleIdCounter = 1;
@@ -217,7 +219,7 @@ public class garfieldKartScript : MonoBehaviour {
         } else
         {
             calc *= 7;
-            Debug.LogFormat("[Garfield Kart #{0}] {1} * 6 = {2} (Odd amount of letters in track name, multiply by 7)", moduleId, calc / 6, calc);
+            Debug.LogFormat("[Garfield Kart #{0}] {1} * 7 = {2} (Odd amount of letters in track name, multiply by 7)", moduleId, calc / 7, calc);
         }
 
         dig = calc;
@@ -240,6 +242,8 @@ public class garfieldKartScript : MonoBehaviour {
             GetComponent<KMBombModule>().HandlePass();
             moduleSolved = true;
             Debug.LogFormat("[Garfield Kart #{0}] Correct place selected, module solved.", moduleId);
+            img = UnityEngine.Random.Range(0, 8);
+            Screen.GetComponent<MeshRenderer>().material = SolveImages[img];
         } else
         {
             GetComponent<KMBombModule>().HandleStrike();
