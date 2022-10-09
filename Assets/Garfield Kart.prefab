@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 114139553842080666}
   - component: {fileID: 114909448169412492}
   m_Layer: 0
-  m_Name: Template
+  m_Name: Garfield Kart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2422,7 +2422,7 @@ MonoBehaviour:
   - {fileID: 114847139825267450}
   - {fileID: 114324311745862638}
   IsPassThrough: 0
-  ChildRowLength: 0
+  ChildRowLength: 6
   Highlight: {fileID: 114570430299588062}
   SelectableColliders: []
   DefaultSelectableIndex: 0
